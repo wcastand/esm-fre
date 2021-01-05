@@ -8,9 +8,9 @@ function App() {
 	return html`
 		<div>
 			<h1>${count}</h1>
-			<button onClick="{${() => setCount(count + 1)}}">+</button>
+			<button onClick=${() => setCount(count + 1)}>+</button>
 		</div>
 	`
 }
 
-render(html`<${App} //>`, document.getElementById('root'))
+render(html`<${App} />`, document.getElementById('root'))
