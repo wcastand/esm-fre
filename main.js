@@ -13,4 +13,4 @@ function App() {
 	`
 }
 
-render(html`<${App} />`, document.getElementById('root'))
+render(html`<${App}/>`, document.body)
